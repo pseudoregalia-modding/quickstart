@@ -1,7 +1,7 @@
 @echo off
 
 REM Output pak filename.
-set pak_filename=quickstart_p.pak
+set pak_filename=quickstart
 
 REM Point this to your Unreal Engine installation. (You probably don't have to modify this.)
 set run_uat=C:\Program Files\Epic Games\UE_5.1\Engine\Build\BatchFiles\RunUAT.bat
