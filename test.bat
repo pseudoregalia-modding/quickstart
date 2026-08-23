@@ -10,4 +10,4 @@ if not exist "%pseudoregalia_folder%" (
 
 echo Running the game...
 @echo on
-"%pseudoregalia_folder%\pseudoregalia\Binaries\Win64\pseudoregalia-Win64-Shipping.exe" Zone_Caves
+"%pseudoregalia_folder%\pseudoregalia\Binaries\Win64\pseudoregalia-Win64-Shipping.exe" Zone_Library -spawn=saveLibraryWest -upgrades=airKick,slide

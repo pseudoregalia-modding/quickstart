@@ -28,6 +28,4 @@ echo Copying pakchunk1-Windows.pak to Pseudoregalia folder, renamed as %pak_file
 copy "%~dp0\Saved\StagedBuilds\Windows\pseudoregalia\Content\Paks\pakchunk1-Windows.pak" "%pseudoregalia_folder%\pseudoregalia\Content\Paks\%pak_filename%_p.pak"
 
 echo Done!
-
-echo Running the game...
-"%pseudoregalia_folder%\pseudoregalia\Binaries\Win64\pseudoregalia-Win64-Shipping.exe"
+pause
